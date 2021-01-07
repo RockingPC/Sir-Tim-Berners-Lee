@@ -80,15 +80,40 @@ p{
     float:left;;
     color:#abfa00;
     padding-top:5px;
-    padding-left: 9px;
-    padding-right: 9px;
+    padding-left: 33px;
+    padding-right: 25px;
     padding-bottom:5px;
     font-family: 'Dancing Script', cursive;
     font-size: 20px;
 }
 .links:hover{
     background-color: #fae100;
+    font-size:25px;
+    text-decoration: underline;
 }
 #Lee{
     text-align: center;
+}
+a{
+    text-decoration: none;
+    color:#3bff0a;
+    text-shadow:2px 2px gainsboro;
+}
+#writings a{
+    text-shadow:none;
+    text-decoration: underline;
+    color:#ff005d;
+}
+#contact{
+    background:firebrick;
+}
+.contact_1 a{
+    color:navajowhite;
+    text-shadow: none;
+}
+.contact_1 h3{
+    display:inline;
+}
+#contact iframe{
+    width:100%;
 }
